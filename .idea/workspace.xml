@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a8329de-c58d-4949-90af-d4e38c7e0747" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.14.6/libexec" />
+  <component name="ProjectId" id="1lH3LFLTfE6q0FR2ElYgjYa9agK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="sqlc" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="sqlc" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile.sqlc" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="493" y="373" key="#GOROOT" timestamp="1607240171283">
+      <screen x="0" y="25" width="1440" height="829" />
+    </state>
+    <state x="493" y="373" key="#GOROOT/-1920.-155.1920.1055/0.25.1440.829@0.25.1440.829" timestamp="1607240171283" />
+    <state x="112" y="273" key="#SQL_Dialects" timestamp="1607242443351">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="112" y="273" key="#SQL_Dialects/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607242443351" />
+    <state x="319" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607242437571">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="319" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607242437571" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom" timestamp="1607242382888">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607242382888" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center" timestamp="1607242382886">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="213" key="GridCell.Tab.0.center/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607242382886" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left" timestamp="1607242382885">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="213" key="GridCell.Tab.0.left/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607242382885" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right" timestamp="1607242382887">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="213" key="GridCell.Tab.0.right/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607242382887" />
+  </component>
+</project>
