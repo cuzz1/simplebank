@@ -7,28 +7,60 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="GOROOT" path="/usr/local/Cellar/go/1.14.6/libexec" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go@1.13/1.13.15/libexec" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
   <component name="ProjectId" id="1lH3LFLTfE6q0FR2ElYgjYa9agK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Test.TestCreateAccount in github.com/cuzz1/simplebank/db/sqlc">
+    <configuration name="TestCreateAccount in github.com/cuzz1/simplebank/db/sqlc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="simplebank" />
+      <working_directory value="$PROJECT_DIR$/db/sqlc" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/cuzz1/simplebank/db/sqlc" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestCreateAccount$" />
+      <method v="2" />
+    </configuration>
     <configuration name="sqlc" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="sqlc" workingDirectory="" arguments="">
         <envs />
       </makefile>
       <method v="2" />
     </configuration>
+    <configuration name="test" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="test" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCreateAccount in github.com/cuzz1/simplebank/db/sqlc" />
+        <item itemvalue="Makefile.test" />
         <item itemvalue="Makefile.sqlc" />
       </list>
     </recent_temporary>
@@ -37,11 +69,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
   <component name="WindowStateProjectService">
     <state x="493" y="373" key="#GOROOT" timestamp="1607240171283">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state x="493" y="373" key="#GOROOT/-1920.-155.1920.1055/0.25.1440.829@0.25.1440.829" timestamp="1607240171283" />
+    <state x="519" y="277" key="#Go_Modules" timestamp="1607244852476">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="519" y="277" key="#Go_Modules/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607244852476" />
     <state x="112" y="273" key="#SQL_Dialects" timestamp="1607242443351">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
@@ -50,21 +89,60 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="319" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607242437571" />
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom" timestamp="1607242382888">
+    <state width="1398" height="224" key="GridCell.Tab.0.bottom" timestamp="1607251541105">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607242382888" />
-    <state width="1398" height="213" key="GridCell.Tab.0.center" timestamp="1607242382886">
+    <state width="1398" height="224" key="GridCell.Tab.0.bottom/-1920.-155.1920.1009/0.25.1440.875@0.25.1440.875" timestamp="1607251541105" />
+    <state width="1398" height="200" key="GridCell.Tab.0.bottom/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607246114408" />
+    <state width="1398" height="224" key="GridCell.Tab.0.center" timestamp="1607251541104">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="213" key="GridCell.Tab.0.center/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607242382886" />
-    <state width="1398" height="213" key="GridCell.Tab.0.left" timestamp="1607242382885">
+    <state width="1398" height="224" key="GridCell.Tab.0.center/-1920.-155.1920.1009/0.25.1440.875@0.25.1440.875" timestamp="1607251541104" />
+    <state width="1398" height="200" key="GridCell.Tab.0.center/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607246114407" />
+    <state width="1398" height="224" key="GridCell.Tab.0.left" timestamp="1607251541103">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="213" key="GridCell.Tab.0.left/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607242382885" />
-    <state width="1398" height="213" key="GridCell.Tab.0.right" timestamp="1607242382887">
+    <state width="1398" height="224" key="GridCell.Tab.0.left/-1920.-155.1920.1009/0.25.1440.875@0.25.1440.875" timestamp="1607251541103" />
+    <state width="1398" height="200" key="GridCell.Tab.0.left/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607246114407" />
+    <state width="1398" height="224" key="GridCell.Tab.0.right" timestamp="1607251541104">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="213" key="GridCell.Tab.0.right/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607242382887" />
+    <state width="1398" height="224" key="GridCell.Tab.0.right/-1920.-155.1920.1009/0.25.1440.875@0.25.1440.875" timestamp="1607251541104" />
+    <state width="1398" height="200" key="GridCell.Tab.0.right/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607246114408" />
+    <state width="1398" height="215" key="GridCell.Tab.1.bottom" timestamp="1607251469015">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.1.bottom/-1920.-155.1920.1009/0.25.1440.875@0.25.1440.875" timestamp="1607251469015" />
+    <state width="1398" height="200" key="GridCell.Tab.1.bottom/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607246110014" />
+    <state width="1398" height="215" key="GridCell.Tab.1.center" timestamp="1607251469014">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.1.center/-1920.-155.1920.1009/0.25.1440.875@0.25.1440.875" timestamp="1607251469014" />
+    <state width="1398" height="200" key="GridCell.Tab.1.center/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607246110014" />
+    <state width="1398" height="215" key="GridCell.Tab.1.left" timestamp="1607251469014">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.1.left/-1920.-155.1920.1009/0.25.1440.875@0.25.1440.875" timestamp="1607251469014" />
+    <state width="1398" height="200" key="GridCell.Tab.1.left/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607246110014" />
+    <state width="1398" height="215" key="GridCell.Tab.1.right" timestamp="1607251469014">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.1.right/-1920.-155.1920.1009/0.25.1440.875@0.25.1440.875" timestamp="1607251469014" />
+    <state width="1398" height="200" key="GridCell.Tab.1.right/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607246110014" />
+    <state x="228" y="75" key="SettingsEditor" timestamp="1607244571096">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="228" y="75" key="SettingsEditor/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607244571096" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/db/sqlc/main_test.go</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
