@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a8329de-c58d-4949-90af-d4e38c7e0747" name="Default Changelist" comment="死锁处理">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +42,15 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1lH3LFLTfE6q0FR2ElYgjYa9agK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
@@ -131,6 +134,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="死锁处理" />
     <option name="LAST_COMMIT_MESSAGE" value="死锁处理" />
   </component>
@@ -154,6 +158,10 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="319" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607242437571" />
+    <state x="446" y="246" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607356273959">
+      <screen x="0" y="25" width="1440" height="829" />
+    </state>
+    <state x="446" y="246" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.829@0.25.1440.829" timestamp="1607356273959" />
     <state x="531" y="159" key="#com.intellij.ide.util.MemberChooser" timestamp="1607255406187">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
