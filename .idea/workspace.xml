@@ -20,7 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a8329de-c58d-4949-90af-d4e38c7e0747" name="Default Changelist" comment="死锁处理">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/account.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +69,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api" />
+    </key>
+  </component>
   <component name="RunManager" selected="Go Test.TestStore_TransferTxDeadlock in github.com/cuzz1/simplebank/db/sqlc">
+    <configuration name="go build github.com/cuzz1/simplebank" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="simplebank" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="github.com/cuzz1/simplebank" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestCreateAccount in github.com/cuzz1/simplebank/db/sqlc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="simplebank" />
       <working_directory value="$PROJECT_DIR$/db/sqlc" />
@@ -96,12 +117,6 @@
       <pattern value="^TestStore_TransferTxDeadlock$" />
       <method v="2" />
     </configuration>
-    <configuration name="sqlc" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
-      <makefile filename="$PROJECT_DIR$/Makefile" target="sqlc" workingDirectory="" arguments="">
-        <envs />
-      </makefile>
-      <method v="2" />
-    </configuration>
     <configuration name="test" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="test" workingDirectory="" arguments="">
         <envs />
@@ -111,10 +126,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go Test.TestStore_TransferTxDeadlock in github.com/cuzz1/simplebank/db/sqlc" />
+        <item itemvalue="Go Build.go build github.com/cuzz1/simplebank" />
         <item itemvalue="Go Test.TestStore_TransferTx in github.com/cuzz1/simplebank/db/sqlc" />
         <item itemvalue="Go Test.TestCreateAccount in github.com/cuzz1/simplebank/db/sqlc" />
         <item itemvalue="Makefile.test" />
-        <item itemvalue="Makefile.sqlc" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +147,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -158,66 +174,67 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="319" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607242437571" />
-    <state x="446" y="246" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607356273959">
+    <state x="446" y="246" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607430645457">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
+    <state x="446" y="246" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.829/-1920.25.1920.1055@0.25.1440.829" timestamp="1607430645457" />
     <state x="446" y="246" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.829@0.25.1440.829" timestamp="1607356273959" />
     <state x="531" y="159" key="#com.intellij.ide.util.MemberChooser" timestamp="1607255406187">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="531" y="159" key="#com.intellij.ide.util.MemberChooser/-1920.-155.1920.1009/0.25.1440.875@0.25.1440.875" timestamp="1607255406187" />
-    <state width="1398" height="297" key="GridCell.Tab.0.bottom" timestamp="1607355234633">
+    <state width="1398" height="263" key="GridCell.Tab.0.bottom" timestamp="1607430622274">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="1398" height="52" key="GridCell.Tab.0.bottom/-1920.-155.1920.1009/0.25.1440.875@0.25.1440.875" timestamp="1607268428400" />
     <state width="1398" height="200" key="GridCell.Tab.0.bottom/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607246114408" />
-    <state width="1398" height="277" key="GridCell.Tab.0.bottom/0.25.1440.829/-1920.25.1920.1055@0.25.1440.829" timestamp="1607307521218" />
+    <state width="1398" height="263" key="GridCell.Tab.0.bottom/0.25.1440.829/-1920.25.1920.1055@0.25.1440.829" timestamp="1607430622274" />
     <state width="1398" height="297" key="GridCell.Tab.0.bottom/0.25.1440.829@0.25.1440.829" timestamp="1607355234633" />
-    <state width="1398" height="297" key="GridCell.Tab.0.center" timestamp="1607355234630">
+    <state width="1398" height="263" key="GridCell.Tab.0.center" timestamp="1607430622272">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="1398" height="52" key="GridCell.Tab.0.center/-1920.-155.1920.1009/0.25.1440.875@0.25.1440.875" timestamp="1607268428399" />
     <state width="1398" height="200" key="GridCell.Tab.0.center/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607246114407" />
-    <state width="1398" height="277" key="GridCell.Tab.0.center/0.25.1440.829/-1920.25.1920.1055@0.25.1440.829" timestamp="1607307521217" />
+    <state width="1398" height="263" key="GridCell.Tab.0.center/0.25.1440.829/-1920.25.1920.1055@0.25.1440.829" timestamp="1607430622272" />
     <state width="1398" height="297" key="GridCell.Tab.0.center/0.25.1440.829@0.25.1440.829" timestamp="1607355234630" />
-    <state width="1398" height="297" key="GridCell.Tab.0.left" timestamp="1607355234622">
+    <state width="1398" height="263" key="GridCell.Tab.0.left" timestamp="1607430622270">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="1398" height="52" key="GridCell.Tab.0.left/-1920.-155.1920.1009/0.25.1440.875@0.25.1440.875" timestamp="1607268428399" />
     <state width="1398" height="200" key="GridCell.Tab.0.left/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607246114407" />
-    <state width="1398" height="277" key="GridCell.Tab.0.left/0.25.1440.829/-1920.25.1920.1055@0.25.1440.829" timestamp="1607307521217" />
+    <state width="1398" height="263" key="GridCell.Tab.0.left/0.25.1440.829/-1920.25.1920.1055@0.25.1440.829" timestamp="1607430622270" />
     <state width="1398" height="297" key="GridCell.Tab.0.left/0.25.1440.829@0.25.1440.829" timestamp="1607355234622" />
-    <state width="1398" height="297" key="GridCell.Tab.0.right" timestamp="1607355234631">
+    <state width="1398" height="263" key="GridCell.Tab.0.right" timestamp="1607430622273">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="1398" height="52" key="GridCell.Tab.0.right/-1920.-155.1920.1009/0.25.1440.875@0.25.1440.875" timestamp="1607268428400" />
     <state width="1398" height="200" key="GridCell.Tab.0.right/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607246114408" />
-    <state width="1398" height="277" key="GridCell.Tab.0.right/0.25.1440.829/-1920.25.1920.1055@0.25.1440.829" timestamp="1607307521218" />
+    <state width="1398" height="263" key="GridCell.Tab.0.right/0.25.1440.829/-1920.25.1920.1055@0.25.1440.829" timestamp="1607430622273" />
     <state width="1398" height="297" key="GridCell.Tab.0.right/0.25.1440.829@0.25.1440.829" timestamp="1607355234631" />
-    <state width="1398" height="277" key="GridCell.Tab.1.bottom" timestamp="1607307521220">
+    <state width="1398" height="65" key="GridCell.Tab.1.bottom" timestamp="1607429761568">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="1398" height="277" key="GridCell.Tab.1.bottom/-1920.-155.1920.1009/0.25.1440.875@0.25.1440.875" timestamp="1607267716425" />
     <state width="1398" height="200" key="GridCell.Tab.1.bottom/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607246110014" />
-    <state width="1398" height="277" key="GridCell.Tab.1.bottom/0.25.1440.829/-1920.25.1920.1055@0.25.1440.829" timestamp="1607307521220" />
-    <state width="1398" height="277" key="GridCell.Tab.1.center" timestamp="1607307521219">
+    <state width="1398" height="65" key="GridCell.Tab.1.bottom/0.25.1440.829/-1920.25.1920.1055@0.25.1440.829" timestamp="1607429761568" />
+    <state width="1398" height="65" key="GridCell.Tab.1.center" timestamp="1607429761568">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="1398" height="277" key="GridCell.Tab.1.center/-1920.-155.1920.1009/0.25.1440.875@0.25.1440.875" timestamp="1607267716424" />
     <state width="1398" height="200" key="GridCell.Tab.1.center/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607246110014" />
-    <state width="1398" height="277" key="GridCell.Tab.1.center/0.25.1440.829/-1920.25.1920.1055@0.25.1440.829" timestamp="1607307521219" />
-    <state width="1398" height="277" key="GridCell.Tab.1.left" timestamp="1607307521219">
+    <state width="1398" height="65" key="GridCell.Tab.1.center/0.25.1440.829/-1920.25.1920.1055@0.25.1440.829" timestamp="1607429761568" />
+    <state width="1398" height="65" key="GridCell.Tab.1.left" timestamp="1607429761568">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="1398" height="277" key="GridCell.Tab.1.left/-1920.-155.1920.1009/0.25.1440.875@0.25.1440.875" timestamp="1607267716424" />
     <state width="1398" height="200" key="GridCell.Tab.1.left/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607246110014" />
-    <state width="1398" height="277" key="GridCell.Tab.1.left/0.25.1440.829/-1920.25.1920.1055@0.25.1440.829" timestamp="1607307521219" />
-    <state width="1398" height="277" key="GridCell.Tab.1.right" timestamp="1607307521219">
+    <state width="1398" height="65" key="GridCell.Tab.1.left/0.25.1440.829/-1920.25.1920.1055@0.25.1440.829" timestamp="1607429761568" />
+    <state width="1398" height="65" key="GridCell.Tab.1.right" timestamp="1607429761568">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="1398" height="277" key="GridCell.Tab.1.right/-1920.-155.1920.1009/0.25.1440.875@0.25.1440.875" timestamp="1607267716425" />
     <state width="1398" height="200" key="GridCell.Tab.1.right/-1920.-155.1920.1055/0.25.1440.875@0.25.1440.875" timestamp="1607246110014" />
-    <state width="1398" height="277" key="GridCell.Tab.1.right/0.25.1440.829/-1920.25.1920.1055@0.25.1440.829" timestamp="1607307521219" />
+    <state width="1398" height="65" key="GridCell.Tab.1.right/0.25.1440.829/-1920.25.1920.1055@0.25.1440.829" timestamp="1607429761568" />
     <state x="228" y="75" key="SettingsEditor" timestamp="1607244571096">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
@@ -226,5 +243,16 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.25.1440.875/-1920.25.1920.1009@0.25.1440.875" timestamp="1607345653743" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/api/account.go</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
